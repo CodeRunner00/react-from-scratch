@@ -1,4 +1,5 @@
 import React from 'react';
+import { connect } from 'react-redux';
 
 const Welcome = (props) => {
 
@@ -8,4 +9,11 @@ const Welcome = (props) => {
   );
 };
 
-export default Welcome;
+function mapStateToProps(state) {
+  console.log('mapStateToProps ', state);
+  return {
+    count: state.count
+  }
+}
+
+export default connect(mapStateToProps)(Welcome);

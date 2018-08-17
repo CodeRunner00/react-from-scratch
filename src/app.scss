@@ -20,6 +20,12 @@
 
 }
 
+button:hover {
+    cursor: pointer;
+    background-color: blue;
+    color: black;
+}
+
 
 @keyframes move{
     0%{
