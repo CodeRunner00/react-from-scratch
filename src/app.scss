@@ -1,7 +1,8 @@
 
-.app{
 
-    color: red;
+
+.container {
+        color: red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,6 +21,13 @@
 
 }
 
+.link {
+    width: 100px;
+    display: inline-block;
+}
+.welcome {
+    text-align: center;
+}
 button:hover {
     cursor: pointer;
     background-color: blue;
